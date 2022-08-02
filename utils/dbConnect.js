@@ -1,21 +1,18 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
-const dbConnect = async () => {
+const connectDB = async () => {
   try {
     await mongoose.connect(
-      `mongodb+srv://user:pass@cluster0.srkeu.mongodb.net/next-crud?retryWrites=true&w=majority
-        `,
+      `mongodb+srv://user:pass@cluster0.srkeu.mongodb.net/next-crud?retryWrites=true&w=majority`,
       {
         useUnifiedTopology: true,
         useNewUrlParser: true,
       }
     );
-
-    console.log('mongo connected');
-      
+    console.log("mongo db connected");
   } catch (error) {
-    console.log(error);
+    console.error(error.message);
   }
 };
 
-export default dbConnect;
+module.exports = connectDB;

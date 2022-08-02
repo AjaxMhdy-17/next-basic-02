@@ -1,7 +1,7 @@
 import nc from "next-connect";
 import dbConnect from "../../../utils/dbConnect";
 // import Player from "../../../models/playersSchema";
-const Players = require('../../../models/playersSchema')
+const Player = require('../../../models/playersSchema')
 
 dbConnect();
 

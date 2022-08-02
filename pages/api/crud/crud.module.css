@@ -1,0 +1,42 @@
+
+.back_button{
+    background-color: limegreen;
+    display: inline-block ;
+    padding : 5px 40px ; 
+    border-radius: 10px ;
+    cursor: pointer;
+}
+
+.card{
+    width : 300px ; 
+    background-color: rgb(26, 58, 26) ;
+    padding : 15px 20px ; 
+    color : rgb(255, 198, 10) ; 
+    margin : 0 auto ; 
+    border-radius: 10px ;
+}
+
+.heading{
+    font-size: 22px ;
+    text-transform: capitalize;
+}
+
+.form_input{
+    width : 100% ; 
+    padding: 5px ; 
+    display : block ; 
+    box-sizing : border-box ;
+    margin : 10px 0 ; 
+    border-radius: 5px ;
+}
+
+.btn{
+    background-color: rgba(255, 0, 0, 0.938);
+    color : #fff ; 
+    padding : 5px 30px ; 
+    border-radius: 5px ;
+    cursor: pointer;
+    outline : none ; 
+    border : none ; 
+    margin-top: 10px;
+}

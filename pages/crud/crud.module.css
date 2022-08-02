@@ -1,0 +1,89 @@
+
+.back_button{
+    background-color: limegreen;
+    display: inline-block ;
+    padding : 5px 40px ; 
+    border-radius: 10px ;
+    cursor: pointer;
+
+}
+
+.card{
+    width : 300px ; 
+    background-color: rgb(26, 58, 26) ;
+    padding : 15px 20px ; 
+    color : rgb(255, 198, 10) ; 
+    margin : 0 auto ; 
+    border-radius: 10px ;
+}
+
+.heading{
+    font-size: 22px ;
+    text-transform: capitalize;
+}
+
+.form_input{
+    width : 100% ; 
+    padding: 5px ; 
+    display : block ; 
+    box-sizing : border-box ;
+    margin : 10px 0 ; 
+    border-radius: 5px ;
+}
+
+.btn{
+    background-color: rgba(255, 0, 0, 0.938);
+    color : #fff ; 
+    padding : 5px 30px ; 
+    border-radius: 5px ;
+    cursor: pointer;
+    outline : none ; 
+    border : none ; 
+    margin-top: 10px;
+}
+
+.single_item{
+    /* text-align: center; */
+    background-color: rgba(79, 20, 97, 0.856);
+    color : #fff ; 
+    border : 1px solid rgb(58, 13, 13) ; 
+    padding : 5px 20px ; 
+    margin : 10px ; 
+    display: inline-block;
+    cursor: pointer ;
+}
+
+.single_item_name{
+    background: darksalmon ; 
+    padding: 3px 8px ;
+}
+
+.single_item ul li {
+    list-style:  none ;
+    color : #fff ;
+    display : block ;  
+    text-align: left ;
+    margin : 10px 0 ;
+}
+
+.single_item ul li:hover  a{
+    background-color: royalblue;
+    color : #fff ; 
+    border-radius: 3px ;
+    transition: all 0.3s ;
+}
+
+.single_item ul li a{
+    color : #fff ; 
+    padding: 1px 5px ; 
+}
+
+.item_detail_box{
+    background : teal ; 
+    color : #fff ; 
+    padding : 10px 30px ; 
+    display: inline-block ;
+    border-radius: 6px ;
+}
+
+

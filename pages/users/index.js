@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import styles from "./users.module.css";
+// import styles from "./users.module.css";
 
 export const getStaticProps = async () => {
   const resp = await fetch("http://localhost:3000/api/users");
